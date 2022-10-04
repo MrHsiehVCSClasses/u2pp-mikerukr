@@ -1,12 +1,15 @@
 package projectName;
-import java.util.*;
 
 public class Main 
 {
     public static void main(String[] args) {
-        System.out.println("Hi! This is an empty project./nYour code will start running from Main.java./nIt may be daunting to start a project from scratch, but try to have fun with it! :)");
-
+        int credit = 5000;
+        System.out.println("You have " + credit+ " credits.");
         // Use this space to test your code, or actually run your project
-        
+        gun vandal = new gun("deez", 2300, 3.99);
+        System.out.println(vandal);
+vandal.buyGun();
+
+
     }
 }
